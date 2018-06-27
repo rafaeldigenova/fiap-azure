@@ -12,7 +12,7 @@ namespace CloudPatterns
     {
         static void Main(string[] args)
         {
-            CacheAsidePattern.Execute(args);
+            RedisCache.Execute(args);
         }
     }
 }
